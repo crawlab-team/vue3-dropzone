@@ -1,8 +1,14 @@
 {
   "name": "crawlab-vue3-dropzone",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "",
-  "main": "dist/crawlab-ui.umd.js",
+  "main": "dist/crawlab-ui.mjs",
+  "exports": {
+    ".": {
+      "import": "./dist/crawlab-ui.js",
+      "require": "./dist/crawlab-ui.umd.cjs"
+    }
+  },
   "unpkg": "dist/crawlab-ui.umd.js",
   "types": "dist/index.d.ts",
   "scripts": {

@@ -7,9 +7,9 @@ import dts from 'vite-plugin-dts';
 export default defineConfig({
   build: {
     lib: {
-      name: 'crawlab-ui',
+      name: 'crawlab-vue3-dropzone',
       entry: resolve(__dirname, 'src/index.ts'),
-      fileName: 'crawlab-ui',
+      fileName: 'crawlab-vue3-dropzone',
     },
     rollupOptions: {
       // make sure to externalize deps that shouldn't be bundled
