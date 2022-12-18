@@ -1,5 +1,5 @@
 {
-  "name": "@crawlab/vue3-dropzone",
+  "name": "crawlab-vue3-dropzone",
   "version": "3.0.0",
   "description": "",
   "main": "dist/crawlab-ui.umd.js",
