@@ -1,6 +1,6 @@
 {
   "name": "crawlab-vue3-dropzone",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "",
   "main": "dist/crawlab-vue3-dropzone.mjs",
   "exports": {
